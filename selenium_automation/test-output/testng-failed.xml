@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rk.selenium_automation.TestNG_Task">
+      <class name="rk.selenium_automation.Calculator">
         <methods>
-          <include name="sel"/>
+          <include name="display"/>
+          <include name="AdditionTest"/>
         </methods>
-      </class> <!-- rk.selenium_automation.TestNG_Task -->
+      </class> <!-- rk.selenium_automation.Calculator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
